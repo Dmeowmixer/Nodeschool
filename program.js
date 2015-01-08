@@ -1,5 +1,10 @@
 // console.log("beep boop");
 var fs = require('fs');
-fs.createReadStream(process.argv[2]).pipe(process.stdout);
+var through = require('through');
+var tr = through(write, end);
 
+tr.write();
+tr.end();
 
+function write (buf) { prepipe = process.stdin.pipe(tr).pipe(process.stdout) }
+function end () { this.queue(null) }
