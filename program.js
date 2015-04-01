@@ -75,7 +75,7 @@ board.on('ready', function (){
   board.repl.inject({
     piezo: piezo
   });
-  
+
   client.on(message, function(msg, rsinfo) {
     piezo.play({
       song: "C D F D A - A A A A G G G G - - C D F D G - G G G G F F F F - -",
