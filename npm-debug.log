@@ -1,0 +1,184 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'nodebot-workshop' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose node symlink /usr/bin/node
+5 verbose cache add [ 'nodebot-workshop', null ]
+6 verbose cache add name=undefined spec="nodebot-workshop" args=["nodebot-workshop",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'nodebot-workshop',
+7 verbose parsed url   path: 'nodebot-workshop',
+7 verbose parsed url   href: 'nodebot-workshop' }
+8 silly lockFile 86fb150b-nodebot-workshop nodebot-workshop
+9 verbose lock nodebot-workshop /home/dmeow/.npm/86fb150b-nodebot-workshop.lock
+10 silly lockFile 86fb150b-nodebot-workshop nodebot-workshop
+11 silly lockFile 86fb150b-nodebot-workshop nodebot-workshop
+12 verbose addNamed [ 'nodebot-workshop', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile d1d656a7-nodebot-workshop nodebot-workshop@
+15 verbose lock nodebot-workshop@ /home/dmeow/.npm/d1d656a7-nodebot-workshop.lock
+16 silly addNameRange { name: 'nodebot-workshop', range: '*', hasData: false }
+17 verbose request where is /nodebot-workshop
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id 8454608f96089e1c
+20 verbose url raw /nodebot-workshop
+21 verbose url resolving [ 'https://registry.npmjs.org/', './nodebot-workshop' ]
+22 verbose url resolved https://registry.npmjs.org/nodebot-workshop
+23 verbose request where is https://registry.npmjs.org/nodebot-workshop
+24 info trying registry request attempt 1 at 19:14:18
+25 http GET https://registry.npmjs.org/nodebot-workshop
+26 http 200 https://registry.npmjs.org/nodebot-workshop
+27 silly registry.get cb [ 200,
+27 silly registry.get   { date: 'Wed, 01 Apr 2015 05:14:18 GMT',
+27 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 silly registry.get     etag: '"3LNXHW6NR9R05OWQFQAEQ6685"',
+27 silly registry.get     'content-type': 'application/json',
+27 silly registry.get     'cache-control': 'max-age=60',
+27 silly registry.get     'content-length': '30761',
+27 silly registry.get     'accept-ranges': 'bytes',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     age: '0',
+27 silly registry.get     'x-served-by': 'cache-dfw1834-DFW',
+27 silly registry.get     'x-cache': 'MISS',
+27 silly registry.get     'x-cache-hits': '0',
+27 silly registry.get     'x-timer': 'S1427865258.602765,VS0,VE255',
+27 silly registry.get     vary: 'Accept',
+27 silly registry.get     'keep-alive': 'timeout=10, max=50',
+27 silly registry.get     connection: 'Keep-Alive' } ]
+28 silly addNameRange number 2 { name: 'nodebot-workshop', range: '*', hasData: true }
+29 silly addNameRange versions [ 'nodebot-workshop',
+29 silly addNameRange   [ '0.9.0',
+29 silly addNameRange     '0.10.0',
+29 silly addNameRange     '0.11.0',
+29 silly addNameRange     '0.11.1',
+29 silly addNameRange     '1.0.0',
+29 silly addNameRange     '1.0.1',
+29 silly addNameRange     '2.0.0',
+29 silly addNameRange     '2.0.1',
+29 silly addNameRange     '2.0.2',
+29 silly addNameRange     '2.1.0',
+29 silly addNameRange     '2.1.1',
+29 silly addNameRange     '2.2.0',
+29 silly addNameRange     '2.2.1',
+29 silly addNameRange     '2.2.2',
+29 silly addNameRange     '2.2.3',
+29 silly addNameRange     '2.2.4',
+29 silly addNameRange     '2.2.5' ] ]
+30 verbose addNamed [ 'nodebot-workshop', '2.2.5' ]
+31 verbose addNamed [ '2.2.5', '2.2.5' ]
+32 silly lockFile ad05397f-nodebot-workshop-2-2-5 nodebot-workshop@2.2.5
+33 verbose lock nodebot-workshop@2.2.5 /home/dmeow/.npm/ad05397f-nodebot-workshop-2-2-5.lock
+34 silly lockFile 5fabcf98-kshop-nodebot-workshop-2-2-5-tgz https://registry.npmjs.org/nodebot-workshop/-/nodebot-workshop-2.2.5.tgz
+35 verbose lock https://registry.npmjs.org/nodebot-workshop/-/nodebot-workshop-2.2.5.tgz /home/dmeow/.npm/5fabcf98-kshop-nodebot-workshop-2-2-5-tgz.lock
+36 verbose addRemoteTarball [ 'https://registry.npmjs.org/nodebot-workshop/-/nodebot-workshop-2.2.5.tgz',
+36 verbose addRemoteTarball   'a4d58571e4f7eca0dffd436b2c6bd47aec9ebd04' ]
+37 info retry fetch attempt 1 at 19:14:19
+38 verbose fetch to= /tmp/npm-2920-FG_vxOZ0/registry.npmjs.org/nodebot-workshop/-/nodebot-workshop-2.2.5.tgz
+39 http GET https://registry.npmjs.org/nodebot-workshop/-/nodebot-workshop-2.2.5.tgz
+40 http 200 https://registry.npmjs.org/nodebot-workshop/-/nodebot-workshop-2.2.5.tgz
+41 silly lockFile 5fabcf98-kshop-nodebot-workshop-2-2-5-tgz https://registry.npmjs.org/nodebot-workshop/-/nodebot-workshop-2.2.5.tgz
+42 silly lockFile 5fabcf98-kshop-nodebot-workshop-2-2-5-tgz https://registry.npmjs.org/nodebot-workshop/-/nodebot-workshop-2.2.5.tgz
+43 silly lockFile ad05397f-nodebot-workshop-2-2-5 nodebot-workshop@2.2.5
+44 silly lockFile ad05397f-nodebot-workshop-2-2-5 nodebot-workshop@2.2.5
+45 silly lockFile d1d656a7-nodebot-workshop nodebot-workshop@
+46 silly lockFile d1d656a7-nodebot-workshop nodebot-workshop@
+47 silly resolved [ { name: 'nodebot-workshop',
+47 silly resolved     version: '2.2.5',
+47 silly resolved     description: 'A nodeschool workshop on getting your ardunio alive with johnny-five',
+47 silly resolved     main: 'nodebot-workshop.js',
+47 silly resolved     scripts: { start: './nodebot-workshop.js', test: 'gulp' },
+47 silly resolved     bin: { 'nodebot-workshop': './nodebot-workshop.js' },
+47 silly resolved     repository:
+47 silly resolved      { type: 'git',
+47 silly resolved        url: 'https://github.com/tableflip/nodebot-workshop' },
+47 silly resolved     keywords:
+47 silly resolved      [ 'nodeschool',
+47 silly resolved        'johnny-five',
+47 silly resolved        'nodebot',
+47 silly resolved        'arduino',
+47 silly resolved        'workshop',
+47 silly resolved        'workshopper',
+47 silly resolved        'life is not a malfuction' ],
+47 silly resolved     contributors: [ [Object], [Object], [Object] ],
+47 silly resolved     license: 'BSD-2-Clause',
+47 silly resolved     bugs: { url: 'https://github.com/tableflip/nodebot-workshop/issues' },
+47 silly resolved     dependencies:
+47 silly resolved      { async: '^0.9.0',
+47 silly resolved        chai: '^1.9',
+47 silly resolved        dnode: '^1.2.0',
+47 silly resolved        ioboard: '^3.0',
+47 silly resolved        'johnny-five': '^0.8.1',
+47 silly resolved        proxyquire: '^1.0.0',
+47 silly resolved        sinon: '^1.9',
+47 silly resolved        workshopper: '^1.2.2',
+47 silly resolved        'workshopper-exercise': '^1.1.0',
+47 silly resolved        'node-notifier': '^3.0' },
+47 silly resolved     optionalDependencies: { 'node-notifier': '^3.0' },
+47 silly resolved     devDependencies:
+47 silly resolved      { 'gulp-jshint': '^1.6.1',
+47 silly resolved        gulp: '^3.6.2',
+47 silly resolved        'jshint-stylish': '^0.4.0',
+47 silly resolved        'gulp-shell': '^0.2.5' },
+47 silly resolved     gitHead: '9df80809d5f83444ae860fc19cd5bd45ef0d426b',
+47 silly resolved     homepage: 'https://github.com/tableflip/nodebot-workshop',
+47 silly resolved     _id: 'nodebot-workshop@2.2.5',
+47 silly resolved     _shasum: 'a4d58571e4f7eca0dffd436b2c6bd47aec9ebd04',
+47 silly resolved     _from: 'nodebot-workshop@',
+47 silly resolved     _npmVersion: '1.4.28',
+47 silly resolved     _npmUser: { name: 'olizilla', email: 'oli@zilla.org.uk' },
+47 silly resolved     maintainers: [ [Object], [Object], [Object] ],
+47 silly resolved     dist:
+47 silly resolved      { shasum: 'a4d58571e4f7eca0dffd436b2c6bd47aec9ebd04',
+47 silly resolved        tarball: 'http://registry.npmjs.org/nodebot-workshop/-/nodebot-workshop-2.2.5.tgz' },
+47 silly resolved     directories: {},
+47 silly resolved     _resolved: 'https://registry.npmjs.org/nodebot-workshop/-/nodebot-workshop-2.2.5.tgz' } ]
+48 info install nodebot-workshop@2.2.5 into /usr/lib
+49 info installOne nodebot-workshop@2.2.5
+50 verbose lib/node_modules/nodebot-workshop unbuild
+51 verbose tar unpack /home/dmeow/.npm/nodebot-workshop/2.2.5/package.tgz
+52 silly lockFile afe0861c-ib-node-modules-nodebot-workshop tar:///usr/lib/node_modules/nodebot-workshop
+53 verbose lock tar:///usr/lib/node_modules/nodebot-workshop /home/dmeow/.npm/afe0861c-ib-node-modules-nodebot-workshop.lock
+54 silly lockFile 56548750-debot-workshop-2-2-5-package-tgz tar:///home/dmeow/.npm/nodebot-workshop/2.2.5/package.tgz
+55 verbose lock tar:///home/dmeow/.npm/nodebot-workshop/2.2.5/package.tgz /home/dmeow/.npm/56548750-debot-workshop-2-2-5-package-tgz.lock
+56 silly gunzTarPerm modes [ '775', '664' ]
+57 error Error: EACCES, mkdir '/usr/lib/node_modules/nodebot-workshop'
+57 error  { [Error: EACCES, mkdir '/usr/lib/node_modules/nodebot-workshop']
+57 error   errno: 3,
+57 error   code: 'EACCES',
+57 error   path: '/usr/lib/node_modules/nodebot-workshop',
+57 error   fstream_type: 'Directory',
+57 error   fstream_path: '/usr/lib/node_modules/nodebot-workshop',
+57 error   fstream_class: 'DirWriter',
+57 error   fstream_stack:
+57 error    [ '/usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+57 error      '/usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+57 error      'Object.oncomplete (fs.js:107:15)' ] }
+58 error Please try running this command again as root/Administrator.
+59 error System Linux 3.13.0-46-generic
+60 error command "/usr/bin/node" "/usr/bin/npm" "install" "-g" "nodebot-workshop"
+61 error cwd /home/dmeow/LearnYouNode
+62 error node -v v0.10.33
+63 error npm -v 1.4.28
+64 error path /usr/lib/node_modules/nodebot-workshop
+65 error fstream_path /usr/lib/node_modules/nodebot-workshop
+66 error fstream_type Directory
+67 error fstream_class DirWriter
+68 error code EACCES
+69 error errno 3
+70 error stack Error: EACCES, mkdir '/usr/lib/node_modules/nodebot-workshop'
+71 error fstream_stack /usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+71 error fstream_stack /usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+71 error fstream_stack Object.oncomplete (fs.js:107:15)
+72 verbose exit [ 3, true ]

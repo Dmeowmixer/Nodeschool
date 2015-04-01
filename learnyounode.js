@@ -78,15 +78,15 @@ http.get(process.argv[2], function(response){
   }))
 })*/
 
-var bl = require('bl');
-var http = require('http');
-for(var i = 2; i < process.argv.length; i++){
-  http.get(process.argv[i], function(response){
-  response.pipe(bl(function (err, data) {
-  if (err) throw err;
+// var bl = require('bl');
+// var http = require('http');
+// for(var i = 2; i < process.argv.length; i++){
+//   http.get(process.argv[i], function(response){
+//   response.pipe(bl(function (err, data) {
+//   if (err) throw err;
 
-  console.log(data.toString());
-    }))
-  }
-}
+//   console.log(data.toString());
+//     }))
+//   }
+// }
 
