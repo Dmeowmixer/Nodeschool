@@ -3,7 +3,7 @@ var board = new five.Board();
 // 
 // 1
 // 
-// board.on("ready", function() {
+// b=oard.on("ready", function() {
 //   var led = new five.Led(13);
 //   led.blink(1000);
 // });
@@ -65,22 +65,37 @@ var board = new five.Board();
 
 // 6
 
-var dgram = require('dgram');
-var message = new Buffer("Some bytes");
-var client = dgram.createSocket("udp4");
-client.bind(1337);
+// var dgram = require('dgram');
+// var message = new Buffer("");
+// var client = dgram.createSocket("udp4");
 
-board.on('ready', function (){
-  var piezo = new five.Piezo(8);
+// board.on('ready', function (){
+//   var piezo = new five.Piezo(8);
+
+//   client.on(message, function(msg, rsinfo) {
+//     piezo.play({
+//       song: "C D F D A - A A A A G G G G - - C D F D G - G G G G F F F F - -",
+//       beats: 1 / 4,
+//       tempo: 100
+//     });
+//   });
+// });
+
+// client.bind(1337);
+
+
+
+
+
+board.on("ready", function(){
+  var potentiometer = new five.Sensor({
+    pin: 'A2',
+    freq: 250
+  });
+
   board.repl.inject({
-    piezo: piezo
+    pot:potentiometer,
   });
-
-  client.on(message, function(msg, rsinfo) {
-    piezo.play({
-      song: "C D F D A - A A A A G G G G - - C D F D G - G G G G F F F F - -",
-      beats: 1 / 4,
-      tempo: 100
-    });
-  });
+  potentiometer.on("data", function(){
+  }); 
 });
